@@ -1,0 +1,45 @@
+services:
+  app:
+    build: .
+    ports:
+      - "3000:3000"
+    env_file: .env
+    depends_on:
+      db:
+        condition: service_healthy
+    networks:
+      - visio-network
+    restart: unless-stopped
+
+  db:
+    image: postgres:16.6-alpine3.21
+    env_file: .env
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB}"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+      start_period: 10s
+    networks:
+      - visio-network
+    restart: unless-stopped
+
+  adminer:
+    image: adminer:4.8.1
+    profiles: ["tools"]
+    ports:
+      - "8080:8080"
+    depends_on:
+      db:
+        condition: service_healthy
+    networks:
+      - visio-network
+
+volumes:
+  postgres-data:
+
+networks:
+  visio-network:
+    driver: bridge
