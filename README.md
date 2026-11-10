@@ -54,6 +54,4 @@ Representative prompts actually used included:
 
 - “Act as a senior full-stack developer and help me build a complete, working web application called VISIO.”
 - “I need you to debug the existing implementation, NOT rebuild the application.”
-- “I want to redesign the VISIO frontend completely.”
-
-The student is responsible for reviewing and testing the project, understanding and being able to explain its implementation, and ensuring the actual AI-assisted portion complies with the Partial limit. **Before submission, confirm that the AI-assisted work did not exceed 50%; this README does not independently calculate that proportion.**
+- “I want to redesign the VISIO frontend completely.”**
