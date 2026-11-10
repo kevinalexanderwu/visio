@@ -54,4 +54,4 @@ Representative prompts actually used included:
 
 - “Act as a senior full-stack developer and help me build a complete, working web application called VISIO.”
 - “I need you to debug the existing implementation, NOT rebuild the application.”
-- “I want to redesign the VISIO frontend completely.”**
+- “I want to redesign the VISIO frontend completely.”
