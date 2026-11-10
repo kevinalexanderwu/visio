@@ -34,17 +34,10 @@ docker compose down
 
 Do not add `-v`: `docker compose down -v` removes the named database volume and its data.
 
-## Screenshots
-
-Screenshots are not included yet. Replace these placeholders with genuine screenshots before submission.
-
-- **Main application:** `[Screenshot pending — docs/screenshots/main-view.png]`
-- **Vision simulation:** `[Screenshot pending — docs/screenshots/vision-simulation.png]`
-
 ## Article & Video
 
-- **Public article:** `[Add the public article URL before submission]`
-- **Public YouTube video:** `[Add the public YouTube video URL before submission]`
+- **Public article:** https://www.linkedin.com/pulse/visio-kevin-t--vjjlf/
+- **Public YouTube video:** https://youtu.be/zmjqxaqECyg
 
 ## AI Usage Declaration
 
