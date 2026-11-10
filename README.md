@@ -39,12 +39,3 @@ Do not add `-v`: `docker compose down -v` removes the named database volume and 
 - **Public article:** https://www.linkedin.com/pulse/visio-kevin-t--vjjlf/
 - **Public YouTube video:** https://youtu.be/zmjqxaqECyg
 
-## AI Usage Declaration
-
-**AI Use Type: Partial.** The exam instructions permit AI assistance for up to 50% of the work process. ChatGPT was used for project brainstorming and architecture planning, debugging, and preparing documentation instructions. OpenCode was used to assist with implementation and code/configuration checks, including the React interface, WebGL/GLSL simulation, Express/PostgreSQL integration, and Docker configuration.
-
-Representative prompts actually used included:
-
-- “Act as a senior full-stack developer and help me build a complete, working web application called VISIO.”
-- “I need you to debug the existing implementation, NOT rebuild the application.”
-- “I want to redesign the VISIO frontend completely.”
